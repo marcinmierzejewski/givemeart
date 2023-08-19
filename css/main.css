@@ -48,6 +48,10 @@ figure {
   background-image: url("../../images/header/background.png");
   background-position: top;
 }
+.section_hero {
+  padding-top: 28px;
+  padding-bottom: 44px;
+}
 
 .container {
   margin: 0 auto;
@@ -93,4 +97,17 @@ figure {
   align-items: center;
   justify-content: center;
   padding-top: 42px;
+}
+
+.hero__title {
+  color: #CB2B28;
+  font-size: 21px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero__paragraph {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
