@@ -1,0 +1,22 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-burger" viewBox="0 0 40 32">
+<title>burger</title>
+<path d="M1.143 0h38.095v5.333h-38.095v-5.333z"></path>
+<path d="M1.143 13.333h38.095v5.333h-38.095v-5.333z"></path>
+<path d="M1.143 26.667h38.095v5.333h-38.095v-5.333z"></path>
+</symbol>
+<symbol id="icon-heart" viewBox="0 0 34 32">
+<title>heart</title>
+<path d="M0 0h34.133v32h-34.133v-32z"></path>
+</symbol>
+<symbol id="icon-shop" viewBox="0 0 47 32">
+<title>shop</title>
+<path d="M0 0h47.36v32h-47.36v-32z"></path>
+</symbol>
+<symbol id="icon-user" viewBox="0 0 33 32">
+<title>user</title>
+<path d="M0 0h33.28v32h-33.28v-32z"></path>
+</symbol>
+</defs>
+</svg>

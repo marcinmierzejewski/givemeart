@@ -44,10 +44,53 @@ figure {
 .section_header {
   padding-top: 38px;
   padding-bottom: 41px;
+  background-repeat: no-repeat;
+  background-image: url("../../images/header/background.png");
+  background-position: top;
 }
 
 .container {
   margin: 0 auto;
   width: 390px;
   padding: 0 20px;
+}
+.container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  cursor: pointer;
+  height: 100%;
+}
+.burger-btn > svg {
+  fill: #000;
+  transition: all 250ms linear;
+}
+.burger-btn > svg:hover, .burger-btn > svg:focus {
+  fill: #CB2B28;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation__list > li {
+  cursor: pointer;
+}
+.navigation__list > li:not(:last-child) {
+  margin-right: 14px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 42px;
 }/*# sourceMappingURL=main.css.map */

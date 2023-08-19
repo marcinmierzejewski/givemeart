@@ -1,0 +1,39 @@
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  cursor: pointer;
+  height: 100%;
+
+  > svg {
+    fill: $color-main;
+    transition: all $animation;
+
+    &:hover,
+    &:focus {
+      fill: $color-accent;
+    }
+  }
+}
+
+.navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > li {
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-right: 14px;
+      }
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 42px;
+}

@@ -26,16 +26,14 @@
     <header class="section section_header">
       <div class="container container_header">
         <div class="burger-wrapper">
-          <button type="button">
-            <img
-              src="images/header/burger.svg"
-              alt="burger_button"
-              width="25"
-            />
+          <button type="button" class="burger-btn">
+            <svg class="" width="25" height="21">
+              <use href="images/header/header_icons.svg#icon-burger"></use>
+            </svg>
           </button>
         </div>
         <nav class="navigation">
-          <ul class="list">
+          <ul class="navigation__list list">
             <li>
               <img
                 src="images/header/heart.svg"
@@ -51,6 +49,9 @@
             </li>
           </ul>
         </nav>
+      </div>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
       </div>
     </header>
     <!-- section hero -->
