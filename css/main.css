@@ -110,4 +110,68 @@ figure {
   font-size: 21px;
   font-weight: 600;
   text-align: center;
+}
+
+.state {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.state__item {
+  flex-grow: 1;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.state__item::before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  background-color: #e5e5e7;
+  z-index: -2;
+}
+.state__item > span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  width: 24px;
+  height: 21.23px;
+  background-color: #e5e5e7;
+  color: #9c9c9c;
+  border-radius: 40%;
+}
+.state__item > p {
+  color: #C0C1C9;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 4px;
+  max-width: 105px;
+}
+.state__item--active::before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  background-color: #CB2B28;
+  z-index: -1;
+  border-radius: 5px;
+}
+.state__item--active > span {
+  background-color: #CB2B28;
+  color: #ffffff;
+}
+.state__item--active > p {
+  color: #CB2B28;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

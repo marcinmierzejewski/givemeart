@@ -1,0 +1,69 @@
+.state {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  &__item {
+    flex-grow: 1;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &::before {
+      content: "";
+      width: 100%;
+      height: 5px;
+      position: absolute;
+      top: 9px;
+      left: 0;
+      background-color: #e5e5e7;
+      z-index: -2;
+    }
+
+    > span {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: $f16;
+      font-weight: 500;
+      width: 24px;
+      height: 21.23px;
+      background-color: #e5e5e7;
+      color: #9c9c9c;
+      border-radius: 40%;
+    }
+
+    > p {
+      color: $color-second;
+      font-weight: 500;
+      font-size: 14px;
+      padding-top: 4px;
+      max-width: 105px;
+    }
+  }
+
+  &__item--active {
+    &::before {
+      content: "";
+      width: 100%;
+      height: 5px;
+      position: absolute;
+      top: 9px;
+      left: 0;
+      background-color: $color-accent;
+      z-index: -1;
+      border-radius: 5px;
+    }
+    > span {
+      background-color: $color-accent;
+      color: #ffffff;
+    }
+
+    > p {
+      color: $color-accent;
+      font-weight: 600;
+    }
+  }
+}
