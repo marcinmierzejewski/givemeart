@@ -1,0 +1,26 @@
+.marketing {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    width: 33%;
+    border-radius: 7px;
+    background-color: #f5f5f6;
+    text-align: center;
+    height: 47px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
   &_header {
     padding-top: 38px;
-    padding-bottom: 41px;
+    padding-bottom: 0;
     background-repeat: no-repeat;
     background-image: url("../../images/header/background.png");
     background-position: top;
@@ -12,7 +12,11 @@
 
   &_hero {
     padding-top: 28px;
-    padding-bottom: 44px;
+    padding-bottom: 0;
+  }
+
+  &_marketing {
+    padding-top: 0;
   }
 }
 
