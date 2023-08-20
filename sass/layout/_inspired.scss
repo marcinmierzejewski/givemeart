@@ -1,0 +1,104 @@
+.inspired {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: rgba(227, 228, 231, 0.26);
+
+  &__title {
+    color: #cb2b28;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+
+  &__description {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8.5px;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 600;
+    height: 25px;
+    > img {
+      display: block;
+      margin-left: 8px;
+    }
+  }
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 352px;
+  border-radius: 9px;
+  padding: 10px 0 20px 0;
+  > input {
+    outline: none;
+    border: none;
+    height: 44.5px;
+    width: 100%;
+    background: #e5e5e7;
+    border-radius: 9px;
+    &::placeholder {
+      color: $color-main;
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 14px;
+    }
+  }
+
+  > button {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 9px 9px 0px;
+    background: linear-gradient(
+      180deg,
+      #cfcfd0 0%,
+      rgba(207, 207, 208, 0) 100%
+    );
+    border: none;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+    width: 96px;
+    height: 44.5px;
+    color: rgba(0, 0, 0, 0.77);
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.buyBtn {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  background: $color-accent;
+  width: 178px;
+  padding: 11.9px 0;
+  border-radius: 7px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}

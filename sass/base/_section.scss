@@ -10,6 +10,10 @@
     background-position: top;
   }
 
+  &_state {
+    padding-bottom: 0;
+  }
+
   &_hero {
     padding-top: 28px;
     padding-bottom: 0;
@@ -17,6 +21,16 @@
 
   &_marketing {
     padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  &_styles {
+    padding-top: 0;
+    padding-bottom: 24px;
+  }
+
+  &_inspired {
+    padding-top: 0;
+    padding-bottom: 24px;
   }
 }
-
