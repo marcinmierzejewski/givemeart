@@ -34,7 +34,7 @@ figure {
   color: inherit;
 }
 .link:hover, .link:focus {
-  color: #CB2B28;
+  color: #cb2b28;
 }
 
 .section {
@@ -92,7 +92,7 @@ figure {
   transition: all 250ms linear;
 }
 .burger-btn > svg:hover, .burger-btn > svg:focus {
-  fill: #CB2B28;
+  fill: #cb2b28;
 }
 
 .navigation__list {
@@ -115,7 +115,7 @@ figure {
 }
 
 .hero__title {
-  color: #CB2B28;
+  color: #cb2b28;
   font-size: 21px;
   text-align: center;
   font-weight: 700;
@@ -165,7 +165,7 @@ figure {
   border-radius: 40%;
 }
 .state__item > p {
-  color: #C0C1C9;
+  color: #c0c1c9;
   font-weight: 500;
   font-size: 14px;
   padding-top: 4px;
@@ -178,16 +178,16 @@ figure {
   position: absolute;
   top: 9px;
   left: 0;
-  background-color: #CB2B28;
+  background-color: #cb2b28;
   z-index: -1;
   border-radius: 5px;
 }
 .state__item--active > span {
-  background-color: #CB2B28;
+  background-color: #cb2b28;
   color: #ffffff;
 }
 .state__item--active > p {
-  color: #CB2B28;
+  color: #cb2b28;
   font-weight: 600;
 }
 
@@ -222,7 +222,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #CB2B28;
+  background-color: #cb2b28;
   border: none;
   padding: 0;
   line-height: 0;
@@ -280,7 +280,7 @@ figure {
   justify-content: center;
   align-items: center;
   width: 50%;
-  background-color: #F5F5F6;
+  background-color: #f5f5f6;
   height: 100%;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -317,14 +317,14 @@ figure {
   margin-right: 5px;
 }
 .styles__item--active {
-  color: #F5F5F6;
+  color: #f5f5f6;
   font-size: 16px;
-  background-color: #CB2B28;
+  background-color: #cb2b28;
   border-radius: 7px;
   box-shadow: 4px 4px 10px 0px rgba(64, 53, 53, 0.49) inset;
 }
 .styles__item--block {
-  color: #C0C1C9;
+  color: #c0c1c9;
 }
 .styles__scroll {
   position: absolute;
@@ -421,10 +421,11 @@ figure {
   font-size: 20px;
   font-weight: 600;
   border: none;
-  background: #CB2B28;
+  background: #cb2b28;
   width: 178px;
   padding: 11.9px 0;
   border-radius: 7px;
   text-transform: uppercase;
   margin-bottom: 26px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
